@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ПРОЕКТ «СПЕКТАКЛЬ» — Архив дела СП-01</title>
+<meta name="description" content="Проект «Спектакль» — интеллектуальный детектив. Закрытое дело СП-01. Москва. Доступ ограничен.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader" class="preloader">
+  <div class="preloader__content">
+    <div class="preloader__title">ПРОЕКТ «СПЕКТАКЛЬ»</div>
+    <div class="preloader__line" id="preloaderLine"></div>
+    <div class="preloader__status" id="preloaderStatus">Доступ разрешён.</div>
+  </div>
+</div>
+
+<!-- NOISE / GRAIN OVERLAY -->
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- NAVIGATION -->
+<header class="nav" id="mainNav">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__logo">СП<span class="nav__logo-dash">–</span>01</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#hero" class="nav__link active" data-section="hero">ГЛАВНАЯ</a>
+      <a href="#case" class="nav__link" data-section="case">ДЕЛО</a>
+      <a href="#characters" class="nav__link" data-section="characters">ПЕРСОНАЖИ</a>
+      <a href="#timeline" class="nav__link" data-section="timeline">ХРОНОЛОГИЯ</a>
+      <a href="#moscow" class="nav__link" data-section="moscow">МОСКВА</a>
+      <a href="#materials" class="nav__link" data-section="materials">МАТЕРИАЛЫ</a>
+      <a href="https://author.today/work/649063" target="_blank" rel="noopener" class="nav__link nav__link--read">ЧИТАТЬ</a>
+    </nav>
+    <button class="nav__burger" id="navBurger" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#hero" data-section="hero">ГЛАВНАЯ</a>
+  <a href="#case" data-section="case">ДЕЛО</a>
+  <a href="#characters" data-section="characters">ПЕРСОНАЖИ</a>
+  <a href="#timeline" data-section="timeline">ХРОНОЛОГИЯ</a>
+  <a href="#moscow" data-section="moscow">МОСКВА</a>
+  <a href="#materials" data-section="materials">МАТЕРИАЛЫ</a>
+  <a href="https://author.today/work/649063" target="_blank" rel="noopener" class="mobile-menu__read">ЧИТАТЬ РОМАН</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero__bg" id="heroBg"></div>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__content">
+      <div class="hero__case-tag">ДЕЛО № СП-01 · УРОВЕНЬ ДОСТУПА: ОГРАНИЧЕННЫЙ</div>
+      <h1 class="hero__title">ПРОЕКТ<br><span>«СПЕКТАКЛЬ»</span></h1>
+      <p class="hero__tagline">Некоторые истории начинаются с преступления.<br>Другие — с вопроса, который лучше было не задавать.</p>
+      <div class="hero__actions">
+        <a href="#case" class="btn btn--primary" id="startInvestigation">НАЧАТЬ РАССЛЕДОВАНИЕ</a>
+        <a href="https://author.today/work/649063" target="_blank" rel="noopener" class="btn btn--ghost">ЧИТАТЬ РОМАН</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span></span>
+      <p>прокрутите вниз</p>
+    </div>
+  </section>
+
+  <!-- CASE -->
+  <section id="case" class="case">
+    <div class="section-heading">
+      <span class="section-heading__num">01</span>
+      <h2 class="section-heading__title">ДЕЛО</h2>
+    </div>
+    <div class="case__wrap">
+      <div class="case-card reveal">
+        <div class="case-card__stamp">СЕКРЕТНО</div>
+        <div class="case-card__row">
+          <span class="case-card__label">ДЕЛО №</span>
+          <span class="case-card__value case-card__value--id" id="caseId">СП-01</span>
+        </div>
+        <div class="case-card__row">
+          <span class="case-card__label">НАЗВАНИЕ</span>
+          <span class="case-card__value">ПРОЕКТ «СПЕКТАКЛЬ»</span>
+        </div>
+        <div class="case-card__row">
+          <span class="case-card__label">СТАТУС</span>
+          <span class="case-card__value case-card__value--status">● АКТИВНО</span>
+        </div>
+        <div class="case-card__row">
+          <span class="case-card__label">МЕСТО</span>
+          <span class="case-card__value">МОСКВА</span>
+        </div>
+        <div class="case-card__row">
+          <span class="case-card__label">УРОВЕНЬ ДОСТУПА</span>
+          <span class="case-card__value case-card__value--restricted">ОГРАНИЧЕННЫЙ</span>
+        </div>
+        <div class="case-card__footer" id="hiddenLogTrigger">ID: SP-01-448X · нажмите для проверки целостности</div>
+      </div>
+      <div class="case__desc reveal">
+        <p>Москва умеет хранить тайны так же тщательно, как хранит холод в декабре. В городе, где каждый второй разговор ведётся не для того, кто слушает, начинается история, которая называет себя репетицией — но никто не может сказать, чего именно.</p>
+        <p>Кто-то составил план. Кто-то в него поверил. Кто-то из него выпал. Материалы дела собираются медленно, по одному документу, по одной фотографии, по одной случайно оброненной фразе — и с каждым новым фрагментом становится яснее: спектакль начался задолго до того, как первый зритель занял своё место.</p>
+        <p class="case__quote">«Если вам кажется, что вы наблюдаете за расследованием — проверьте, не наблюдают ли за вами».</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHARACTERS -->
+  <section id="characters" class="characters">
+    <div class="section-heading">
+      <span class="section-heading__num">02</span>
+      <h2 class="section-heading__title">ПЕРСОНАЖИ</h2>
+    </div>
+    <p class="section-sub reveal">Картотека фигурантов дела. Часть досье до сих пор не рассекречена.</p>
+    <div class="characters__grid" id="charactersGrid"></div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline" class="timeline">
+    <div class="section-heading">
+      <span class="section-heading__num">03</span>
+      <h2 class="section-heading__title">ХРОНОЛОГИЯ</h2>
+    </div>
+    <p class="section-sub reveal">Последовательность материалов, поступивших в дело. Порядок событий восстановлен частично.</p>
+    <div class="timeline__list" id="timelineList"></div>
+  </section>
+
+  <!-- MOSCOW -->
+  <section id="moscow" class="moscow">
+    <div class="section-heading">
+      <span class="section-heading__num">04</span>
+      <h2 class="section-heading__title">МОСКВА. МЕСТА ДЕЛА</h2>
+    </div>
+    <p class="section-sub reveal">Город — не фон истории. Город — один из её участников.</p>
+    <div class="moscow__grid" id="moscowGrid"></div>
+  </section>
+
+  <!-- INVESTIGATION BOARD -->
+  <section id="board" class="board">
+    <div class="section-heading">
+      <span class="section-heading__num">05</span>
+      <h2 class="section-heading__title">ДОСКА РАССЛЕДОВАНИЯ</h2>
+    </div>
+    <p class="section-sub reveal">Кто-то уже пытался собрать эту картину. Возможно, он не закончил.</p>
+    <div class="board__frame reveal">
+      <svg class="board__lines" id="boardLines" preserveAspectRatio="none"></svg>
+      <div class="board__nodes" id="boardNodes"></div>
+    </div>
+  </section>
+
+  <!-- MATERIALS -->
+  <section id="materials" class="materials">
+    <div class="section-heading">
+      <span class="section-heading__num">06</span>
+      <h2 class="section-heading__title">МАТЕРИАЛЫ</h2>
+    </div>
+    <p class="section-sub reveal">Вещественные доказательства. Часть материалов будет открываться по мере публикации романа.</p>
+    <div class="materials__grid" id="materialsGrid"></div>
+    <div class="materials__cta reveal">
+      <a href="https://author.today/work/649063" target="_blank" rel="noopener" class="btn btn--primary">ЧИТАТЬ «ПРОЕКТ СПЕКТАКЛЬ»</a>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section id="final" class="final">
+    <div class="final__inner reveal">
+      <p class="final__code">СТАТУС ДЕЛА: ОТКРЫТО</p>
+      <h2 class="final__title">ДЕЛО НЕ ЗАКРЫТО.<br>ИСТОРИЯ ПРОДОЛЖАЕТСЯ.</h2>
+      <a href="https://author.today/work/649063" target="_blank" rel="noopener" class="btn btn--primary btn--large">ВОЙТИ В ИСТОРИЮ</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__col">
+      <div class="footer__title">ПРОЕКТ «СПЕКТАКЛЬ»</div>
+      <p class="footer__text">Роман.<br>Все события, персонажи и организации являются частью художественного произведения.</p>
+    </div>
+    <div class="footer__col">
+      <div class="footer__label">ЧИТАТЬ</div>
+      <a href="https://author.today/work/649063" target="_blank" rel="noopener" class="footer__link">Author.Today</a>
+    </div>
+    <div class="footer__col">
+      <div class="footer__label">СОЦИАЛЬНЫЕ СЕТИ</div>
+      <a href="#" class="footer__link footer__link--muted">Telegram</a>
+      <a href="#" class="footer__link footer__link--muted">VK</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span id="secretEasterEgg" class="footer__bottom-text">© ПРОЕКТ «СПЕКТАКЛЬ» · АРХИВ ДЕЛА СП-01</span>
+  </div>
+</footer>
+
+<!-- MODAL: CHARACTER -->
+<div class="modal" id="characterModal">
+  <div class="modal__overlay" data-close></div>
+  <div class="modal__box modal__box--dossier">
+    <button class="modal__close" data-close aria-label="Закрыть">×</button>
+    <div class="modal__content" id="characterModalContent"></div>
+  </div>
+</div>
+
+<!-- MODAL: LOCATION -->
+<div class="modal" id="locationModal">
+  <div class="modal__overlay" data-close></div>
+  <div class="modal__box">
+    <button class="modal__close" data-close aria-label="Закрыть">×</button>
+    <div class="modal__content" id="locationModalContent"></div>
+  </div>
+</div>
+
+<!-- MODAL: MATERIAL -->
+<div class="modal" id="materialModal">
+  <div class="modal__overlay" data-close></div>
+  <div class="modal__box">
+    <button class="modal__close" data-close aria-label="Закрыть">×</button>
+    <div class="modal__content" id="materialModalContent"></div>
+  </div>
+</div>
+
+<!-- MODAL: SECRET SYSTEM LOG -->
+<div class="modal" id="systemModal">
+  <div class="modal__overlay" data-close></div>
+  <div class="modal__box modal__box--system">
+    <button class="modal__close" data-close aria-label="Закрыть">×</button>
+    <div class="modal__content">
+      <pre id="systemLogText" class="system-log"></pre>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
